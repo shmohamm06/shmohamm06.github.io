@@ -246,6 +246,22 @@ body {
     font-weight: 700;
 }
 
+.section-content h4 {
+    font-family: 'Playfair Display', serif;
+    color: #202124;
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.section-content h5 {
+    font-family: 'Playfair Display', serif;
+    color: #202124;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 .section-content ul {
     text-align: left;
     margin: 1rem 0;
