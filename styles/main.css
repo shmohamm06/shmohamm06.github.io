@@ -215,6 +215,7 @@ body {
 /* Welcome text - keep bold */
 .welcome-text {
     font-weight: 600 !important;
+    font-size: 1.4rem !important;
 }
 
 /* Sections */
