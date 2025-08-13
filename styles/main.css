@@ -129,17 +129,18 @@ body {
     padding: 20px 40px;
     display: inline-block;
     background: transparent;
-    transition: none;
-    transform: none;
-    box-shadow: none;
+    transition: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+    pointer-events: none;
 }
 
 .hero h1:hover {
-    transform: none;
-    box-shadow: none;
-    background: transparent;
-    color: #ffffff;
-    border: 4px solid #ffffff;
+    transform: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    color: #ffffff !important;
+    border: 4px solid #ffffff !important;
 }
 
 .hero .subtitle {
@@ -333,6 +334,7 @@ body {
 .cta-button.secondary:hover {
     background: #202124;
     color: #ffffff;
+    border-color: #202124;
 }
 
 /* Projects Grid */
