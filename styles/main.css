@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     line-height: 1.6;
     color: #202124;
     background: #f5f5f0;
@@ -37,7 +37,7 @@ body {
 }
 
 .logo {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: #ffffff;
@@ -52,7 +52,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
     font-family: 'Arial', sans-serif;
@@ -118,7 +118,7 @@ body {
 }
 
 .hero h1 {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -129,15 +129,22 @@ body {
     padding: 20px 40px;
     display: inline-block;
     background: #ffffff;
+    transition: none;
+}
+
+.hero h1:hover {
+    transform: none;
+    box-shadow: none;
 }
 
 .hero .subtitle {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     margin-bottom: 2rem;
     color: #ffffff;
     position: relative;
     z-index: 1;
+    font-weight: 600;
 }
 
 .hero .description {
@@ -147,6 +154,7 @@ body {
     color: #ffffff;
     position: relative;
     z-index: 1;
+    font-weight: 400;
 }
 
 .hero-buttons {
@@ -169,10 +177,10 @@ body {
 }
 
 .hero-quote p {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
     color: #202124;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.6;
     margin: 0;
     text-align: center;
@@ -193,7 +201,7 @@ body {
 }
 
 .section h2 {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
@@ -227,10 +235,11 @@ body {
     margin-bottom: 2rem;
     color: #202124;
     text-align: left;
+    font-weight: 400;
 }
 
 .section-content h3 {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     color: #202124;
     margin: 2rem 0 1rem 0;
     font-size: 1.5rem;
@@ -246,6 +255,7 @@ body {
 .section-content li {
     margin: 0.5rem 0;
     color: #202124;
+    font-weight: 400;
 }
 
 .cta-button {
@@ -257,7 +267,7 @@ body {
     border-radius: 0;
     font-weight: 600;
     transition: all 0.3s ease;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     border: 2px solid #202124;
     cursor: pointer;
 }
@@ -307,7 +317,7 @@ body {
     color: #202124;
     font-size: 1.4rem;
     margin-bottom: 1rem;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     text-decoration: underline;
 }
@@ -316,6 +326,7 @@ body {
     color: #202124;
     margin-bottom: 1rem;
     line-height: 1.6;
+    font-weight: 400;
 }
 
 .project-card strong {
@@ -338,6 +349,7 @@ body {
     font-size: 0.9rem;
     border: 1px solid #d0d0d0;
     font-family: 'Arial', sans-serif;
+    font-weight: 500;
 }
 
 /* Hobbies Grid */
@@ -374,12 +386,13 @@ body {
     color: #202124;
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
 .hobby-card p {
     color: #202124;
+    font-weight: 400;
 }
 
 /* Contact Section */
@@ -415,7 +428,7 @@ body {
 .contact-item h3 {
     color: #202124;
     margin-bottom: 1rem;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
@@ -424,6 +437,7 @@ body {
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .contact-item a:hover {
@@ -433,6 +447,7 @@ body {
 .contact-item p {
     color: #666666;
     margin-top: 0.5rem;
+    font-weight: 400;
 }
 
 /* Footer */
