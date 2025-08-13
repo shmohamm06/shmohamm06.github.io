@@ -20,26 +20,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Typewriter effect for hero title
-const heroTitle = document.querySelector('.hero h1');
-if (heroTitle) {
-    const originalText = heroTitle.textContent;
-    heroTitle.textContent = '';
-    
-    let i = 0;
-    const typeWriter = () => {
-        if (i < originalText.length) {
-            heroTitle.textContent += originalText.charAt(i);
-            i++;
-            setTimeout(typeWriter, 100);
-        }
-    };
-    
-    window.addEventListener('load', () => {
-        setTimeout(typeWriter, 500);
-    });
-}
-
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
