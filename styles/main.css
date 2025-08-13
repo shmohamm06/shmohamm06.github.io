@@ -173,8 +173,8 @@ body {
 
 /* Hero Quote Section */
 .hero-quote {
-    background: transparent;
-    border: none;
+    background: #ffffff;
+    border: 2px solid #202124;
     padding: 2rem;
     text-align: center;
     max-width: 800px;
