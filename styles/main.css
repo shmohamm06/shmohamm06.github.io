@@ -204,9 +204,9 @@ body {
 
 .home-section-quote p {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #202124;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.6;
     margin: 0;
     text-align: center;
@@ -226,10 +226,10 @@ body {
     background: transparent;
 }
 
-/* Remove section separators */
-/* .section:not(:first-child) {
+/* Add section separators */
+.section:not(:first-child) {
     border-top: 1px solid #e0e0e0;
-} */
+}
 
 .section h2 {
     font-family: 'Playfair Display', serif;
